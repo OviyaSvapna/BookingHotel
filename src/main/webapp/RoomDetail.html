@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Room Details</title>
+</head>
+<body>
+<h1>Room Details&emsp;&emsp;&emsp;<a href='Logout.html'><button>Log out</button></a>
+</h1> <form action="RoomDetails" method="post">
+<label for="room">Select Room Type</label> 
+<select name="roomtype" id="roomtype">
+<option value="single">Single</option>
+<option value="double">Double</option>
+<option value="triple">Triple</option>
+<option value="quad">Quad</option></br></br>
+<option value="queen">Queen</option></br></br>
+<option value="king">King</option></br></br>
+<option value="twin">Twin</option></br></br>
+<option value="doubdouble">Double-double</option></br></br>
+</select></br></br>
+Room ID <input type="text" name="roomid" /><br/><br/>
+People <input type="text" name="people"/><br/><br/> 
+Room Fare <input type="text" name="roomfare" /><br/><br/> 
+Room Description <input type="text" name="roomdescrp"/><br/><br/> 
+Room Title <input type="text" name="roomtitle"/><br/><br/> 
+Number of Beds <input type="text" name="noofbed" /><br/><br/> 
+Select Room facility </br> 
+<input type="checkbox" id="Additional_Beds" name="facility" value="Additional_Beds"/>
+<label>Additional Beds</label> <br> 
+<input type="checkbox" id="babysitting" name="facility" value="babysitting" /> 
+<label>Babysitting</label><br>
+<input type="checkbox" id="freewifi" name="facility" value="freewifi" /> 
+<label>Free wifi</label><br> 
+<input type="checkbox" id="Laundry" name="facility" value="Laundry" /> 
+<label>Laundry</label><br>
+<input type="checkbox" id="Room Service" name="facility"value="Room service" /> 
+<label>Room Service</label><br/></br>
+<input type="submit" value="Save">
+</form>
+</body>
+</html>
